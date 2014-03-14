@@ -1,13 +1,13 @@
 require "date"
 
 message = <<END
-x  x x xxx  xxxx   x     x xxxx   xxx  x    xxxx
-x  x x x  x x      x x x x x      x  x x      xx
-x  x x x  x x      x  x  x x      x  x x      x 
-xxxx x xxx  xxx    x     x xxx    xxx  x     xx 
-x  x x x  x x      x     x x      x    x     x  
-x  x x x  x x      x     x x      x    x    xx  
-x  x x x  x xxxx   x     x xxxx   x    xxxx xxxx
+x  x x xxx  xxxx   x   x xxxx   xxx  x    xxxx
+x  x x x  x x      xx xx x      x  x x       x
+x  x x x  x x      x x x x      x  x x      x 
+xxxx x xxx  xxx    x   x xxx    xxx  x     xx 
+x  x x x  x x      x   x x      x    x     x  
+x  x x x  x x      x   x x      x    x    x   
+x  x x x  x xxxx   x   x xxxx   x    xxxx xxxx
 END
 
 rows = message.split("\n")
