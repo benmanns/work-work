@@ -2,6 +2,8 @@
 
 This script generates commits that will display a message to viewers of your GitHub profile on your activity graph. It works best when you don't have any commits already.
 
+See [a demo on @benmannstest](https://github.com/benmannstest).
+
 To customize the message, edit `message` in work_work.rb. Make sure that each line is the same length (add spaces for padding at the end). Otherwise `Array#transpose` complains.
 
 # Running the script.
